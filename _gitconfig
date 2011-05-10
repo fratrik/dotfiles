@@ -1,0 +1,13 @@
+[user]
+	name = Craig Fratrik
+	email = cfratrik@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto

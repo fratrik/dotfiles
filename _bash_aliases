@@ -1,0 +1,4 @@
+alias gg='git grep -n'
+alias vis='vim -S Session.vim'
+alias gs='git status'
+
