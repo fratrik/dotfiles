@@ -1,8 +1,8 @@
 " settings for vim
 syntax on
-set background=dark
+"set background=dark
 set ruler
-"colorscheme desert
+colorscheme desert
 set expandtab
 set shiftwidth=4
 set smarttab
