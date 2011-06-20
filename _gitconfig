@@ -14,3 +14,6 @@
 
 [core]
     editor = vi
+
+[commit]
+    template = ~/arc/arcanist/resources/git/commit-template.txt
