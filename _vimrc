@@ -4,9 +4,9 @@ set background=dark
 set ruler
 "colorscheme desert
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set smarttab
-set tabstop=4
+set tabstop=2
 autocmd BufNewFile,BufRead *.json set ft=javascript
 set incsearch
 set hlsearch
