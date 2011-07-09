@@ -17,5 +17,6 @@ set linebreak
 set showbreak=~~
 autocmd BufWritePre * :%s/\s\+$//e
 set autoindent
+set colorcolumn=80
 
 autocmd FileType make setlocal noexpandtab
