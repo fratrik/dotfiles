@@ -7,6 +7,8 @@
     co = checkout
     br = branch
     p = !CURR=$(git branch | awk '/\\\\*/ {print $2}') && git push origin $CURR
+    rpo = remote prune origin
+    mp = !CURR=$(git branch | awk '/*/ {print $2}') && git merge origin/$CURR
 
 [color]
 	diff = auto
