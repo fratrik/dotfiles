@@ -6,7 +6,7 @@
     st = status
     co = checkout
     br = branch
-    p = !CURR=$(git branch | awk '/\\\\*/ {print $2}') && git push origin $CURR
+    p = !CURR=$(git branch | awk '/\\\\*/ {print $2}') && git push -u origin $CURR
     rpo = remote prune origin
     mp = !CURR=$(git branch | awk '/*/ {print $2}') && git merge origin/$CURR
     aa = add -A
