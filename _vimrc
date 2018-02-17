@@ -2,11 +2,11 @@
 syntax on
 set background=dark
 set ruler
-"colorscheme desert
+colorscheme desert
 set expandtab
-set shiftwidth=2
+set shiftwidth=4
 set smarttab
-set tabstop=2
+set tabstop=4
 autocmd BufNewFile,BufRead *.json set ft=javascript
 set incsearch
 set hlsearch
@@ -14,7 +14,8 @@ set laststatus=2
 set ignorecase
 set smartcase
 set linebreak
-set showbreak=~~
+set showbreak=~
+set breakindent
 autocmd BufWritePre * :%s/\s\+$//e
 set autoindent
 set colorcolumn=80
