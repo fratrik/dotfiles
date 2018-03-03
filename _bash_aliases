@@ -1,5 +1,3 @@
-alias gg='git grep -n'
-alias vis='vim -S Session.vim'
 alias gs='git status'
-alias fixssh='source `which fixssh`'
-alias attach='grabssh && screen -RUD'
+alias jf='julia -O 3 -p auto'
+

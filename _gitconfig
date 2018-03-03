@@ -10,6 +10,7 @@
     rpo = remote prune origin
     mp = !CURR=$(git branch | awk '/*/ {print $2}') && git merge origin/$CURR
     aa = add -A
+    pa = push --all
 
 [color]
 	diff = auto
