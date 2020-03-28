@@ -3,4 +3,6 @@ alias jf='julia -O 3 -p auto'
 alias js='julia -O 0 -p auto'
 alias j6='julia -O 3 -p 6'
 alias ml='matlab -nosplash -nodesktop'
+alias j='julia -O 3'
+alias lyxf='find . -name "*.lyx"'
 
