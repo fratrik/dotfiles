@@ -21,5 +21,4 @@
     editor = vi
 	excludesfile = ~/.gitignore
 
-[commit]
-    template = ~/arc/arcanist/resources/git/commit-template.txt
+
