@@ -5,4 +5,5 @@ alias j6='julia -O 3 -p 6'
 alias ml='matlab -nosplash -nodesktop'
 alias j='julia -O 3'
 alias lyxf='find . -name "*.lyx"'
+alias copylast='cat "$(ls -t | head -n 1)" | xclip -selection clipboard'
 
