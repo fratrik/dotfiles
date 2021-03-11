@@ -1,9 +1,11 @@
 #!/bin/bash
 
+path=$(pwd)
+echo $path
 for file in _*
 do
-    path=$(readlink -f $file)
     dotname=.${file:1}
+    echo $dotname
 
     if [[ -f ~/$dotname ]]
     then
@@ -15,6 +17,6 @@ do
         mv ~/$dotname ~/$backup
         echo $backup
     fi
-    ln -s $path ~/$dotname
+    ln -s $path/$file ~/$dotname
 done
 
