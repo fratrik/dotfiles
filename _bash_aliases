@@ -1,14 +1,6 @@
-alias gs='git status'
-
 alias jf='julia -O 3 -p auto'
 alias js='julia -O 0 -p auto'
 alias j6='julia -O 3 -p 6'
 alias j='julia -O 3'
 alias jm='julia -O 3 --track-allocation=user'
 
-alias ml='matlab -nosplash -nodesktop'
-
-alias lyxf='find . -name "*.lyx"'
-alias copylast='cat "$(ls -t | head -n 1)" | xclip -selection clipboard'
-
-alias py='python3'

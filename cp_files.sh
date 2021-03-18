@@ -9,6 +9,12 @@ do
 
     if [[ -f ~/$dotname ]]
     then
+        if [ $(readlink ~/$dotname) -a $(readlink ~/$dotname) == $path/$file ]
+        then
+            echo continued $dotname
+            continue
+        fi
+
         backup=$dotname.bak
         while [[ -f ~/$backup ]]
         do
